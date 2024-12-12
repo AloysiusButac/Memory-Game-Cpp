@@ -4,13 +4,15 @@ A simple game made with C/C++ SDL2.
 
 ## Description
 
+This project was built with the Simple DirectMedia Layer (SDL) Library, version 2.0.16. This project is a demonstration of the capabilities of what can be done using the SDL library. 
 <div align="center">
+
   <img src="docs/demo.gif" alt="demo" />
 
   _Project Demo_
 </div>
 
-This project was built with the Simple DirectMedia Layer (SDL) Library, version 2.0.16. This project is a demonstration of the capabilities of what can be done using the SDL library. This project randomly genrates color-pair for each game instance. It will log the colors generated at launch which can be seen through CLI.
+This project randomly genrates color-pair for each game instance. It will log the colors generated at launch which can be seen through CLI.
 
 <div align="center">
   <img src="docs/color_generation.png" alt="demo" />
@@ -33,8 +35,6 @@ The following dependencies are what was used during development:
     - SDL2 ttf
 
 _\* see the official [SDL2 Release logs](https://github.com/libsdl-org/SDL/releases) for updated versions of the library and dependencies, for old versions of SDL TTF here is the [official source](https://www.libsdl.org/projects/SDL_ttf/release/)._
-
-\* I have included a basic font in ths repository in `src/Fonts`.
 
 <!-- ### Installing
 
